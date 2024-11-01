@@ -6,13 +6,13 @@ public class Program
     {
         string teamName = "Paris Saint-Germain";
         int year = 2013;
-        int totalGoals = await getTotalScoredGoals(teamName, year);
+        int totalGoals = await getTotalGoals(teamName, year);
 
         Console.WriteLine("Team "+ teamName +" scored "+ totalGoals.ToString() + " goals in "+ year);
 
         teamName = "Chelsea";
         year = 2014;
-        totalGoals =await getTotalScoredGoals(teamName, year);
+        totalGoals =await getTotalGoals(teamName, year);
 
         Console.WriteLine("Team " + teamName + " scored " + totalGoals.ToString() + " goals in " + year);
 
@@ -21,7 +21,7 @@ public class Program
         // Team Chelsea scored 92 goals in 2014
     }
 
-    static async Task<int> getTotalScoredGoals(string team, int year)
+    static async Task<int> getTotalGoals(string team, int year)
     {
         int totalGoals = 0;
         int currentPage = 1;
