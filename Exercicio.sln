@@ -1,27 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32519.379
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34601.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questao1", "Questao1\Questao1.csproj", "{24C20B4F-3D90-45C4-84F6-49CBB46DDDB4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questao2", "Questao2\Questao2.csproj", "{6FDF016F-9506-422A-B4CA-E9A401FDDC34}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Questao3", "Questao3", "{2BB7EE80-1BF0-49A3-BDB2-2E9D04439829}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\OneDrive\Questões 3 2.docx = ..\..\..\OneDrive\Questões 3 2.docx
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Questao4", "Questao4", "{D7C9B50D-678B-438F-8CCF-258F745DB194}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\OneDrive\Questão 4.docx = ..\..\..\OneDrive\Questão 4.docx
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questao5", "Questao5\Questao5.csproj", "{7B665AB7-6063-4EA5-A851-E41DBBE01242}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TesteQuestao5", "TesteQuestao5", "{454E5C1C-9AAA-4FAF-A1D9-B8C1E14980B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestQuestao5", "TestQuestao5\TestQuestao5.csproj", "{4C01DA1C-1CB1-469E-A492-2B8DEC1FDC5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestQuestao5", "TestQuestao5\TestQuestao5.csproj", "{4C01DA1C-1CB1-469E-A492-2B8DEC1FDC5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Questao3", "Questao3", "{D0D37F30-0D5E-4D42-ADC9-435AD3029D29}"
+	ProjectSection(SolutionItems) = preProject
+		Questao3\Questoes3.docx = Questao3\Questoes3.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Questao4", "Questao4", "{9CFE7C20-0462-4124-93B2-02AE65B0BF3D}"
+	ProjectSection(SolutionItems) = preProject
+		Questao4\Questão4.docx = Questao4\Questão4.docx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
